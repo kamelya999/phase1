@@ -5,14 +5,14 @@ body {
 }
 
 header {
-  background-color: #6107b1;
+  background-image: url("../images/header.png");
   padding: 67px 0;
 }
 
 header > h1 {
   color: #ffffff;
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 200;
   margin: 0 0 40px 0;
   text-align: center;
 }
@@ -46,15 +46,21 @@ main {
 
 #about-me > h3 {
   margin: 0 0 40px 0;
+  font-weight: 100;
 }
 
 #about-me > div {
   display: inline-block;
   width: 40%;
 }
+
+#about-me > div > img {
+  width: 97%
+}
+
  #about-me > p {
    float: right;
-   width: 60%;
+   width: 40%;;
  }
 
  #projects {
@@ -65,6 +71,7 @@ main {
 
  #projects > h3 {
    margin: 0 0 40px 0;
+   font-weight: 100;
 
  }
 
@@ -88,14 +95,16 @@ section {
 
 section > h3 {
   margin: 0 0 40px 0;
+  font-weight: 100;
 }
 
 section > h4 {
   margin: 0 0 20px 0;
+  font-weight: 100;
 }
 
 footer {
-  background-color: #6107b1;
+  background-image: url("../images/header.png");
   padding: 30px 0;
 
 }
