@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: monospace;
+  font-size: 16px;
 }
 
 header {
@@ -70,6 +72,7 @@ main {
  #projects > div > div {
    display: inline-block;
    text-align: center;
+   width: 32%;
  }
 
 #projects > div > div > img {
